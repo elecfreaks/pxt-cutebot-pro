@@ -15,6 +15,7 @@
     "Cutebot_Pro.mototRun|block": "左轮速度|%lspeed右轮速度|%rspeed",
     "Cutebot_Pro.readSpeed|block": "读电机|%index速度",
     "Cutebot_Pro.servoRun|block": "扩展舵机|%index角度|%angle",
+    "Cutebot_Pro.motorRun|block": "扩展电机速度|%speed_e",
     "Cutebot_Pro.setRGBLight|block": "设置|%rgbshow颜色|%color",
     "Cutebot_Pro.readPatrol|block": "读巡线传感器|%patrol",
     "Cutebot_Pro.mototStop|block": "电机|%index停止",

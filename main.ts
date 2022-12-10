@@ -256,6 +256,25 @@ namespace Cutebot_Pro {
     }
 
     /**
+ * MOTOR control module
+ */
+    //% weight=40
+    //% block="motor speed|%speed_e"
+    //% speed_e.min=-100  speed_e.max=100
+    export function motorRun(speed_e: number): void {
+        let buf = pins.createBuffer(7)
+        buf[0] = 0x00;
+        buf[1] = 0x03;
+        buf[2] = -speed_e;
+        buf[3] = 0;
+        buf[4] = 0;
+        buf[5] = 0;
+        buf[6] = 0;
+        pins.i2cWriteBuffer(0x8, buf);
+    }
+
+
+    /**
      * Control the color of RGB LED
      */
     //% weight=50

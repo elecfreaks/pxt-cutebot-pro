@@ -1,6 +1,7 @@
 {
   "Cutebot_Pro.I2CInit|block": "initialize via I2C until success",
   "Cutebot_Pro.PID|block": "PID switch|%pid",
+  "Cutebot_Pro.motorRun|block": "motor speed|%speed_e",
   "Cutebot_Pro.mototRun|block": "lspeed|%lspeed|rspeed|%rspeed| ",
   "Cutebot_Pro.mototStop|block": "Motor|%index stop",
   "Cutebot_Pro.readPatrol|block": "read line-tracking sensor|%patrol",
