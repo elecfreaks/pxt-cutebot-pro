@@ -1,6 +1,6 @@
 {
     "name": "pxt-cutebot-pro",
-    "version": "0.0.0",
+    "version": "1.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -9,7 +9,8 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "_locales/zh-cn/pxt-cutebot-pro-strings.json"
     ],
     "testFiles": [
         "test.ts"
